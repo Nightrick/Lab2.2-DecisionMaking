@@ -30,9 +30,8 @@ public class DecisionMaking {
 			}
 
 			if (!(userInput % 2 == 0)) {
-				if (userInput < 60) {
 				System.out.println(userName + ", you entered " + userInput + ". Odd.");
-				} else if (userInput > 60) {
+				if (userInput > 60) {
 					System.out.println("Wow, " + userName + "! You entered " + userInput + ". Odd and over sixty!");
 				}
 			} else {
